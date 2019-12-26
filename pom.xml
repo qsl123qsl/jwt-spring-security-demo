@@ -156,6 +156,7 @@
                 <activeByDefault>true</activeByDefault>
             </activation>
             <build>
+            <pluginManagement>
                 <plugins>
                     <plugin>
                         <groupId>org.codehaus.mojo</groupId>
@@ -174,6 +175,7 @@
                         </executions>
                     </plugin>
                 </plugins>
+            </pluginManagement>
             </build>
         </profile>
 
